@@ -1,7 +1,38 @@
+*,
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background: #1a1a1a;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%); 
+  color: #ccc;
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1112/Vector-music-spectrum_1920x1200.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.page-wrap{
+  
+}
+
+.nav-bar{
+  background-color: #ccc;
+  padding: 25px;
+  opacity: 0.8;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }
