@@ -14,9 +14,15 @@ body {
   align-items: center;
 }
 
-.page-wrap{  
+.page-wrap{
+  background-image: url('https://cutewallpaper.org/21/rick-and-morty-white-background/Rick-And-Morty-White-Background-98-Ima-766908-PNG-.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 960px;  
   flex-direction: row;
+  /* background-color: #fff; */
 }
 
 .nav-bar{
@@ -75,7 +81,7 @@ a{
 }
 
 .projects-section{
-  margin-top: 3em;
+  margin-top: 1em;
   display: flex;
   justify-content: center;
   justify-content: space-around;

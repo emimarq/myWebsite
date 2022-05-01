@@ -1,0 +1,137 @@
+*,
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ffffff;  
+  color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-wrap{
+  width: 960px;  
+  flex-direction: row;
+}
+
+.nav-bar{
+  background-color: black;
+  padding: 25px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+hr{
+  width: 85%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+}
+
+input{
+  height: 2em;
+  margin: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+  color: #101010;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  border: 1px solid #fff;
+  height: 250px;
+  width: 55%;
+  color:#101010;
+  margin-top: 2em;
+  padding-top: 1em;
+  font-size: 14px;
+  overflow: scroll;
+}
+
+.newItem{
+  margin: .2em;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.newItem:hover{
+  text-decoration: line-through;
+  cursor: pointer;
+  color: #6b6b6b;
+}
+
+.newItemHidden{
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.dialougeBoxVisible{
+  width: 365px;
+  padding: .8em;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #101010;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.dialougeBoxHidden{
+  visibility: hidden;
+}
+
+#btn{
+  border: 1px solid #ccc;
+  padding: .3em;
+  width: 6em;
+}
+
+#btn:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #101010;
+  color: #ccc;
+}
+
+.okBtn{
+  border: 1px solid #101010;
+  width: 35%;
+  padding: .3em;
+  margin-top: 2em;
+}
+
+.okBtn:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #101010;
+  color: #ccc;
+}
