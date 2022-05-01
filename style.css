@@ -7,22 +7,21 @@ html{
 }
 
 body {
-  background: #1a1a1a;
-  color: #ccc;
-  background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1112/Vector-music-spectrum_1920x1200.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  background: #ffffff;  
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.page-wrap{
-  
+.page-wrap{  
+  width: 960px;  
+  flex-direction: row;
 }
 
 .nav-bar{
-  background-color: #ccc;
+  background-color: black;
   padding: 25px;
-  opacity: 0.8;
 }
 
 ul{
@@ -34,5 +33,72 @@ ul{
 
 a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
+}
+
+.header-section{
+  position: relative;
+}
+
+.header{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-weight: 100;
+  font-size: 2.5em;
+}
+
+.tagline{
+  position: absolute;
+  top: 58.8%;
+  left: 37.8%;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.header-section img{
+  width: 960px;
+}
+
+.about-me-section{
+  background-color: teal;
+  color: white;
+  margin-top: 5em;
+  padding: 3em;
+}
+
+.about-me-section p{
+  margin-top: 1.5em;
+  font-size: 1.5em;
+}
+
+.projects-section{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+  background-color: black;
+  width: 30%;
+  height: auto;
+  padding:1.1em;
+}
+
+.card-contents{
+  text-align: center;
+  color:black;
+}
+
+.card-contents h3{
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+.card-contents img{
+  width: 100%;
 }

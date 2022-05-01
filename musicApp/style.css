@@ -1,0 +1,115 @@
+*,
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background: #ffffff;  
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-bar{
+  background-color: black;
+  padding: 25px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-wrap{  
+  width: 960px;  
+  flex-direction: row;
+}
+
+.square{
+  height: 200px;
+  width: 200px;
+  margin: 1em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.pSq1{
+  background-color: #ffff00ff;
+}
+
+.pSq2{
+  background-color: #d12ed1ff;
+}
+
+.pSq3{
+  background-color: #00ffffff;
+}
+
+.dSq1{
+  background-color: #d12ed1ff;
+}
+
+.dSq2{
+  background-color: #ffff00ff;
+}
+
+.dSq3{
+  background-color: #00ffffff;
+}
+
+.pianoRow{
+  display: flex;
+  justify-content: center;
+}
+
+.drumRow{
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes jump{
+  0%{
+    bottom: 100%;
+    left: 48.8%;
+    transform: rotate(0deg);
+  }
+  50%{
+    bottom: 70%;
+    left: 48.8%;
+    transform: rotate(345deg);
+  }
+  100%{
+    bottom: 0%;
+    left: 48.8%;
+    transform: rotate(360deg);
+  }
+}
+
+.ripple > div{
+  background-image: url('../images/g859.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: -1;
+}
