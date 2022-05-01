@@ -1,3 +1,5 @@
+window.addEventListener('load', () => {
+
 const die1 = Math.floor(Math.random() * 6 ) + 1;
 const die2 = Math.floor(Math.random() * 6 ) + 1;
 const sum = `You rolled and got ${die1 + die2}!`;
@@ -25,7 +27,6 @@ btn.onclick = function() {
   die2Image.setAttribute('src', dieImages[die2]);
   die1Result.appendChild(die1Image);
   die2Result.appendChild(die2Image);
-  console.log(`${die1} ${die2}`)
   
 
   btn.style.display = 'none';
@@ -39,4 +40,4 @@ btn.onclick = function() {
   }, "2000")
 }
 
-console.log(dieImages);
+});
