@@ -108,3 +108,42 @@ a{
 .card-contents img{
   width: 100%;
 }
+
+@media all and (max-width: 500px) {
+  .page-wrap{
+    background-attachment: scroll;
+    background-size: contain;
+    width: 450px;
+  }
+
+  .projects-section {
+    flex-direction: column;
+  }
+
+  .card{
+    width: 80%;
+    margin: .6em 0;
+  }
+
+  .header-section img{
+    width: 450px;
+  }
+
+  .header{
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    font-weight: 100;
+    font-size: 2em;
+  }
+
+  .tagline{
+    position: absolute;
+    top: 58.8%;
+    left: 31%;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 100;
+  }
+}
